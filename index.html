@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Your Store Name - Reparo e Venda de Videogames e Acessórios</title>
+		<meta
+			name="description"
+			content="Sua loja completa de videogames. Oferecemos venda e reparo de consoles, manutenção de controles, acessórios e jogos para as principais plataformas."
+		/>
+
+		<!-- Open Graph -->
+		<meta
+			property="og:title"
+			content="Your Store Name - Loja de Videogames e Reparos"
+		/>
+		<meta
+			property="og:description"
+			content="Precisando de um novo console ou consertar o seu antigo? Aqui você encontra os melhores videogames, jogos e acessórios, além de um serviço de reparo confiável."
+		/>
+		<meta property="og:image" content="https://your-store.com/og-image.webp" />
+		<meta property="og:url" content="https://your-store.com" />
+		<meta property="og:type" content="website" />
+
+		<link rel="icon" href="https://your-store.com/favicon.ico" />
+
+		<!-- Schema Markup -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Store",
+				"name": "Your Store Name",
+				"image": "https://your-store.com/og-image.webp",
+				"url": "https://your-store.com",
+				"telephone": "+55 00 00000-0000",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "Rua Exemplo, 123",
+					"addressLocality": "Cidade",
+					"addressRegion": "Estado",
+					"postalCode": "00000-000",
+					"addressCountry": "BR"
+				},
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": -19.0,
+					"longitude": -44.0
+				},
+				"openingHoursSpecification": [
+					{
+						"@type": "OpeningHoursSpecification",
+						"dayOfWeek": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday"
+						],
+						"opens": "08:00",
+						"closes": "18:00"
+					},
+					{
+						"@type": "OpeningHoursSpecification",
+						"dayOfWeek": "Sunday",
+						"opens": "08:00",
+						"closes": "12:00"
+					}
+				],
+				"priceRange": "$$",
+				"logo": "https://your-store.com/logo-icon.ico"
+			}
+		</script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>
