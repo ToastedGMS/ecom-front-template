@@ -48,7 +48,7 @@ describe('Layout Component', () => {
 	});
 	it('footer contains a copyright notice', () => {
 		expect(screen.getByRole('contentinfo')).toHaveTextContent(
-			`© ${new Date().getFullYear()} Paulada Games. All rights reserved.`
+			`© ${new Date().getFullYear()} Store Name. All rights reserved.`
 		);
 	});
 });

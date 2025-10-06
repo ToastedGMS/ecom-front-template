@@ -38,7 +38,7 @@ export default function Header(): JSX.Element {
 							<img
 								onClick={() => navigate('/')}
 								src="/logo-icon.webp"
-								alt="Paulada Games Logo"
+								alt="Logo"
 								className="w-16 h-auto cursor-pointer"
 							/>
 
@@ -62,7 +62,7 @@ export default function Header(): JSX.Element {
 							<img
 								onClick={() => navigate('/')}
 								src="/logo.webp"
-								alt="Paulada Games Logo"
+								alt="Logo"
 								className="w-full max-w-[180px] md:max-w-[220px] lg:max-w-[250px] h-auto cursor-pointer"
 							/>
 						</div>

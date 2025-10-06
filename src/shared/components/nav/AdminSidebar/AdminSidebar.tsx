@@ -9,7 +9,7 @@ export default function AdminSidebar() {
 			<nav className="w-full flex flex-col items-center">
 				<img
 					src="/logo.webp"
-					alt="Paulada games logo"
+					alt="logo"
 					className="w-40 mb-6 cursor-pointer"
 					onClick={() => navigate(`/`)}
 				/>
